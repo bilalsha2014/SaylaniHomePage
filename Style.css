@@ -1,0 +1,494 @@
+/* Header Styling Starts */
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: #316dc3;
+}
+.HeaderMainDiv {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 5px;
+}
+
+.HeaderDiv2 {
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+#IconImageHeader {
+  height: 20px;
+}
+
+.CenterHeaderText {
+  padding: 7px;
+}
+
+.IconHeaderDiv ul {
+  padding-top: 7px;
+  margin: 0px;
+}
+.CenterHeaderText {
+  color: white;
+  font-size: 14px;
+}
+
+.HeaderIconList li {
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+}
+
+.HeaderDiv1,
+.HeaderDiv2,
+.HeaderDiv3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.HeaderButton input {
+  padding: 5px;
+  color: gray;
+}
+
+/* Header Styling Ends */
+
+/* Navigation Styling Starts */
+
+nav {
+  background-color: rgb(248, 246, 246);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#SaylaniLogo {
+  height: 200%;
+  width: 200px;
+  margin-left: 340px;
+}
+
+.MenuBar {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+.MenuBar li {
+  display: inline;
+}
+#Navbbarlist li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px;
+}
+/* Poistion Nav bar to fixed */
+
+nav {
+  top: 0px;
+  position: sticky;
+  width: 100%;
+  margin: 0px;
+}
+
+#Navbbarlist li a:hover {
+  border-radius: 30px;
+  border: 1px solid #316dc3;
+  background-color: #316dc3;
+  color: white;
+}
+.MainNavDiv {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#Navbbarlist {
+  margin-left: 250px;
+}
+
+/* Navigation Styling Ends */
+
+/* Image Slider Starts*/
+
+#SliderImage {
+  height: 500px;
+  width: 100%;
+}
+
+/* Image Slider Ends */
+
+/* Section1 Starts */
+
+.IntroductionParagraph {
+  margin-left: 445px;
+  margin-right: 445px;
+  color: #666666;
+}
+
+#LineSeperator {
+  border: 1px solid #427900;
+  width: 40px;
+}
+
+#HeadingBlue {
+  color: #316dc3;
+}
+
+#HeadingGreen {
+  color: #427900;
+}
+
+#IntroductionPara {
+  font: 14px;
+  margin: 10px;
+  color: #666666;
+}
+
+#IntroductionHeading {
+  margin: 10px;
+  font: 60px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.MainSectionDiv {
+  background-color: rgb(248, 246, 246);
+}
+
+#Newsheadline {
+  background-color: #316dc3;
+  padding: 1px;
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#NewsHeadlineGreen {
+  color: rgb(159, 255, 159);
+}
+#NewsHeadlineWhite {
+  color: white;
+}
+
+#Headlinewords {
+  margin: 0px;
+  padding: 10px;
+}
+
+#NewsHeadlineMoredetails {
+  text-decoration: none;
+  color: #12ece1;
+}
+
+#NewsHeadlineLightBlue {
+  padding-right: 20px;
+}
+
+/* Section1 Ends */
+
+/* Monthly Stats Divider Style Start */
+
+.MainDivStats {
+  color: white;
+  /* margin-left: 300px;
+  margin-right: 300px; */
+}
+
+#MakeitGreen {
+  color: #8efc08;
+}
+
+.BackgroundColorStatsDiv {
+  background-color: rgba(36, 79, 242, 0.8);
+}
+
+#StatsImageIcon {
+  height: 25%;
+  width: 25%;
+}
+
+#StatsDiv {
+  height: 180px;
+  width: 230px;
+
+  display: inline-block;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#StatsDiv h2 {
+  font-size: 44px;
+}
+
+#StatsDiv h5 {
+  font-size: 14px;
+}
+/* Monthly Stats Divider Style End */
+
+/* Section 2 Style Starts */
+
+#Section2DivSize1 {
+  height: 132px;
+  width: 300px;
+  text-align: center;
+  padding: 30px;
+  display: inline-block;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px #cccccc;
+}
+
+.AlignSingleLine {
+  display: inline-block;
+}
+
+#Section2DivSize2 {
+  height: 132px;
+  width: 300px;
+  text-align: center;
+  padding: 30px;
+  display: inline-block;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px #cccccc;
+}
+
+#Section2DivSize2 h4,
+#Section2DivSize1 h4 {
+  color: #316dc3;
+}
+
+.Section2DivRow1,
+.Section2DivRow2 {
+  text-align: center;
+}
+
+.MainDivSection2 {
+  background-color: #f7f8fa;
+}
+/* Section 2 Style Ends */
+
+/* Mission & Upcoming Projects Section Starts */
+
+.Section3 {
+  background-color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#UpcomingEventsHeading,
+#MissionHeading {
+  color: #316dc3;
+}
+#MissionIconLabels {
+  padding-left: 40px;
+}
+
+.MaindivSection3 {
+  height: 381px;
+  width: 1200px;
+
+  margin-left: 360px;
+  margin-right: 360px;
+}
+
+.ForCenterAlignmentOfBelowDiv {
+  text-align: center;
+}
+
+.AlignVericalMissionIcons {
+  vertical-align: bottom;
+  color: #316dc3;
+  font-weight: bold;
+}
+
+#MissionDivSizing {
+  border: 0.1px solid rgb(235, 235, 235);
+  width: 330px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 40px;
+  background-color: rgba(248, 248, 248, 0.863);
+}
+
+.linesepratoralign {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+#LineSeperatorthin {
+  border: 0.05px solid #d6d6d6;
+  width: 317px;
+}
+
+#MissionRow2,
+#MissionRow1 {
+  display: inline-block;
+}
+
+.Mission,
+.UpcomingEvents {
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+.Mission {
+  width: 830px;
+}
+
+.UpcomingEvents {
+  width: 360px;
+  height: 300px;
+  overflow: hidden;
+
+  color: rgb(122, 122, 122);
+}
+
+#UpcomingEventsLine {
+  margin-right: 80px;
+}
+
+#UpcomingEventsLine {
+  padding-bottom: 10px;
+}
+
+#MoreDetailsSkyBlue {
+  color: #165ebd;
+  text-decoration: none;
+}
+
+/* Mission & Upcoming Projects Section Ends */
+
+/* IMAGE GALLERY Starts */
+
+#ImageGalleryHeading {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+#ImageGallery {
+  height: 150px;
+  width: 235px;
+}
+
+#ImageGallery:hover {
+  box-shadow: 2px 2px 3px 3px rgba(52, 180, 231, 0.842);
+}
+
+.ImageGalleryCollection {
+  padding-bottom: 150px;
+}
+
+#UpcomingEventsHeading,
+.linesepratoralign,
+.MarqueeEvents {
+  display: block;
+}
+
+.ImageGalleryCollection {
+  text-align: center;
+}
+/* IMAGE GALLERY Ends */
+
+/* Footer Styling Starts */
+.FooterMainDiv {
+  background-color: #272727;
+}
+
+.CopyrightRow {
+  background-color: #333333;
+}
+
+#FooterEntity {
+  color: rgb(3, 248, 3);
+}
+
+.Contactinfo,
+.UsefulLinks,
+.SocialMediaLinks {
+  display: inline-block;
+
+  height: 300px;
+  width: 390px;
+  overflow: hidden;
+}
+
+.CopyrightRow {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #316dc3;
+  color: white;
+  font-size: 14px;
+}
+/* Footer Styling Ends */
+
+.Contactinfo {
+  color: #aaa9a9;
+}
+
+.FooterMainDiv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 360px;
+  padding-right: 360px;
+}
+#FooterList li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+#Iconfooter {
+  width: 20px;
+  height: 20px;
+}
+
+#SocialIconfooter {
+  width: 35px;
+  height: 35px;
+}
+
+#FooterHeading {
+  color: white;
+  margin-bottom: 10px;
+}
+
+#FooterList {
+  padding: 0px;
+}
+#textfooter,
+#Iconfooter {
+  vertical-align: top;
+}
+#textfooter {
+  padding-right: 20px;
+}
+.Contactinfo {
+  font-size: 15px;
+}
+
+#LineSeperatorthinfooter {
+  border: 0.05px solid #b9b9b9;
+  width: 300px;
+  padding-bottom: 2px;
+}
+
+.linesepratoralignfooter {
+  display: inline-block;
+
+  margin: 0px;
+  padding: 0px;
+}
