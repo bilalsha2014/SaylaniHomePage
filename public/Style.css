@@ -12,9 +12,6 @@ header {
   background-color: #316dc3;
 }
 
-#navbarNavDropdown {
-  text-align: center;
-}
 #IconImageHeader {
   height: 20px;
 }
@@ -61,7 +58,6 @@ nav {
 
 .navbar {
   padding: 0px;
-  text-align: center;
 }
 
 #Navbbarlist li a {
@@ -134,7 +130,7 @@ nav {
   background-color: rgb(248, 246, 246);
 }
 
-#Headlinewords {
+#Newsheadline {
   background-color: #316dc3;
   padding: 1px;
   margin-left: 280px;
@@ -180,45 +176,39 @@ nav {
 
 .BackgroundColorStatsDiv {
   background-color: rgba(36, 79, 242, 0.8);
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 #StatsImageIcon {
-  width: 15%;
-  padding-top: 30px;
+  height: 25%;
+  width: 25%;
 }
 
-#AlignStats {
-  text-align: center;
-}
 #StatsDiv {
   height: 180px;
   width: 230px;
+
+  display: inline-block;
+  padding: 10px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-#StatsDivh2 {
+#StatsDiv h2 {
   font-size: 44px;
-  color: white;
-  margin: 15px;
 }
 
-#StatsDivh5 {
+#StatsDiv h5 {
   font-size: 14px;
-  color: white;
-  margin: 15px;
 }
 /* Monthly Stats Divider Style End */
 
 /* Section 2 Style Starts */
 
 #Section2DivSize1 {
-  height: 200px;
-  width: 400px;
+  height: 132px;
+  width: 300px;
   text-align: center;
   padding: 30px;
   display: inline-block;
@@ -232,8 +222,8 @@ nav {
 }
 
 #Section2DivSize2 {
-  height: 200px;
-  width: 400px;
+  height: 132px;
+  width: 300px;
   text-align: center;
   padding: 30px;
   display: inline-block;
@@ -245,8 +235,6 @@ nav {
 #Section2DivSize2 h4,
 #Section2DivSize1 h4 {
   color: #316dc3;
-  font-size: 20px;
-  margin: 15px;
 }
 
 .Section2DivRow1,
@@ -270,10 +258,17 @@ nav {
 #UpcomingEventsHeading,
 #MissionHeading {
   color: #316dc3;
-  font-size: 25px;
 }
 #MissionIconLabels {
   padding-left: 40px;
+}
+
+.MaindivSection3 {
+  height: 381px;
+  width: 1200px;
+
+  margin-left: 360px;
+  margin-right: 360px;
 }
 
 .ForCenterAlignmentOfBelowDiv {
@@ -288,10 +283,19 @@ nav {
 
 #MissionDivSizing {
   border: 0.1px solid rgb(235, 235, 235);
+  width: 330px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 40px;
   background-color: rgba(248, 248, 248, 0.863);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 10px;
+}
+
+.linesepratoralign {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
 }
 
 #LineSeperatorthin {
@@ -299,7 +303,25 @@ nav {
   width: 317px;
 }
 
+#MissionRow2,
+#MissionRow1 {
+  display: inline-block;
+}
+
+.Mission,
 .UpcomingEvents {
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+.Mission {
+  width: 830px;
+}
+
+.UpcomingEvents {
+  width: 360px;
+  height: 300px;
   overflow: hidden;
 
   color: rgb(122, 122, 122);
@@ -317,11 +339,7 @@ nav {
   color: #165ebd;
   text-decoration: none;
 }
-.linesepratoralign {
-  display: inline-block;
-  padding: 0px;
-  margin: 0px;
-}
+
 /* Mission & Upcoming Projects Section Ends */
 
 /* IMAGE GALLERY Starts */
@@ -334,12 +352,11 @@ nav {
 
 #ImageGallery {
   height: 150px;
-  width: 210px;
-  margin: 3px;
+  width: 235px;
 }
 
 #ImageGallery:hover {
-  box-shadow: 2px 2px 3px 3px rgba(190, 231, 247, 0.842);
+  box-shadow: 2px 2px 3px 3px rgba(52, 180, 231, 0.842);
 }
 
 .ImageGalleryCollection {
@@ -360,7 +377,6 @@ nav {
 /* Footer Styling Starts */
 .FooterMainDiv {
   background-color: #272727;
-  padding-top: 50px;
 }
 
 .CopyrightRow {
@@ -395,13 +411,12 @@ nav {
   color: #aaa9a9;
 }
 
-/* .FooterMainDiv {
+.FooterMainDiv {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 360px;
   padding-right: 360px;
-} */
-
+}
 #FooterList li {
   list-style: none;
   padding-bottom: 10px;
@@ -420,7 +435,6 @@ nav {
 #FooterHeading {
   color: white;
   margin-bottom: 10px;
-  font-size: 16px;
 }
 
 #FooterList {
@@ -434,12 +448,13 @@ nav {
   padding-right: 20px;
 }
 .Contactinfo {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 #LineSeperatorthinfooter {
-  border: 0.01px solid #b9b9b9;
-  width: 280px;
+  border: 0.05px solid #b9b9b9;
+  width: 300px;
+  padding-bottom: 2px;
 }
 
 .linesepratoralignfooter {
